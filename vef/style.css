@@ -1,0 +1,106 @@
+
+:root {
+  --primary-color: #646cff;
+  --primary-hover-color: #535bf2;
+  --background-color: #242424;
+  --text-color: #fff;
+  --card-bg-color: #1a1a1a;
+  --border-color: #646cff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --primary-color: #747bff;
+    --background-color: #ffffff;
+    --text-color: #213547;
+    --card-bg-color: #f9f9f9;
+  }
+}
+
+.heading, .Intext {
+  text-align: center;
+}
+
+.leita {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.leita input {
+  padding: 10px;
+  width: 60%;
+  border: 2px solid var(--primary-color);
+  color: var(--text-color);
+  background-color: var(--card-bg-color);
+}
+
+.leita button {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.leita button:hover {
+  background-color: var(--primary-hover-color);
+}
+
+/* Results List */
+.boxes {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.box {
+  background-color: var(--card-bg-color);
+  color: var(--text-color);
+  border: 1px solid var(--primary-color);
+  margin-bottom: 20px;
+  padding: 15px;
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+  transition: margin 0.3s, transform 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  margin-bottom: 15px; 
+  transform: scale(1.03);
+}
+
+.result_name {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.result_releasedate,
+.result_id {
+  color: #aaa;
+}
+
+
+@media (max-width: 768px) {
+  .leita input {
+    width: 70%;
+  }
+}
+
+
+.back a {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.25s;
+}
+
+.back a:hover {
+  background-color: var(--primary-hover-color);
+}
