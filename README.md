@@ -5,4 +5,4 @@ Verkefni þetta var gert fyrir áfangan vefforritun I árið 2023 og er 10 og se
 Verkefnið er einföld síða sem er tengd við mynda api og finnur allar myndir sem komu út einhvað ár sem er sleigið inn í leitar streing
 
 # Netlify
-verkefnið er á [Netlify]()
+verkefnið er á [Netlify](https://deft-hummingbird-8d0805.netlify.app/)
