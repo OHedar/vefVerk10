@@ -16,8 +16,9 @@ verkefnið er á [Netlify](https://deft-hummingbird-8d0805.netlify.app/)
 ## Byrja
 Til að keyra verkefni
 
-1. Clone-a: `git clone
-
+1. Clone-a: `git clone https://github.com/OHedar/vefVerk10.git`
+2. Keyra: `npm install` 
+3. Keyra develober slóð: `npm run dev`
 
 ## Höf
 Ólafur Heiðar Jónsson
